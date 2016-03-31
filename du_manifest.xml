@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="android-prebuilts-gcc-linux-x86-arm-arm-eabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="android_build" />
+
+  <project name="Nico60/UBERTC_arm-linux-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="4.9.4" />
+  <project name="Nico60/UBERTC_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15" remote="github" revision="4.9.4" />
+  <project name="Nico60/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="UTC" />
+  <project name="Nico60/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="UTC" />
+  <project name="Nico60/bionic" path="bionic" remote="github" revision="UTC" />
+  <project name="Nico60/build" path="build" remote="github" revision="UTC" />
+  <project name="DirtyUnicorns/android_vendor_motorola" path="vendor/motorola" remote="github" revision="m" />
+  <project name="DirtyUnicorns/banks_dynamic_gapps" path="gapps/banks/dynamic" remote="github" revision="m" />
+
+</manifest>
